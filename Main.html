@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Increment-Decrement</title>
+<script>
+	i = 0;
+	function btnplus() {
+		i++;
+		document.getElementById('count').innerHTML=i;
+	}
+	function btnminus() {
+		i--;
+		document.getElementById('count').innerHTML=i;
+	}
+</script>
+</head>
+<body>
+Current Count :<p id="count">0</p>
+<button onclick="btnplus()">Increment</button> <button onclick="btnminus()">Decrement</button>
+</body>
+</html>
